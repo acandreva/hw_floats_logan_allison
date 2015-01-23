@@ -7,34 +7,40 @@
     margin: auto;
     max-width: 800px;
     padding: 15px;
+    overflow: auto;
 }
 
 .content {
     background: rgba(113, 255, 0, 0.69);
     min-height: 500px;
+    width: 595px;
+    float: left;
 }
 
 .sidebar {
     background: rgb(208, 157, 255);
     min-height: 500px;
-    float: right;
+    float: left;
     width: 175px;
 }
 
 .page-heading {
     background: rgba(255, 0, 0, 0.79);
+    float: left;
 }
 
 .post-date {
-
+    float: right;
 }
 
 .image {
     background: gray;
     height: 200px;
     width: 300px;
+    float: right;
+    clear: left;
 }
 
 article {
-
+    clear: both;
 }
